@@ -29,7 +29,16 @@ steps:
     configuration: '$(buildConfiguration)'
 
 - task: VSTest@2
+  displayName: "Server Unit Test"
   inputs:
+    testSelector: 'testAssemblies'
+    testAssemblyVer2: |
+      **\Selenium.*test*.dll
+      !**\*TestAdapter.dll
+      !**\*obj\**
+    searchFolder: '$(System.DefaultWorkingDirectory)'
+    runTestsInIsolation: true
+    codeCoverageEnabled: true
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 - task: AzureRmWebAppDeployment@4
