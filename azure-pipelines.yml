@@ -33,9 +33,7 @@ steps:
   inputs:
     testSelector: 'testAssemblies'
     testAssemblyVer2: |
-      **\Selenium.*test*.dll
-      !**\*TestAdapter.dll
-      !**\*obj\**
+      **\TestCase\LoginTest.cs
     searchFolder: '$(System.DefaultWorkingDirectory)'
     runTestsInIsolation: true
     codeCoverageEnabled: true
