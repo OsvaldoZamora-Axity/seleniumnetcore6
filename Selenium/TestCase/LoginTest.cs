@@ -25,7 +25,7 @@ public class LoginTest
     public void SuccesfulLoginTest()
     {
         LoginPage loginPage = new LoginPage(Driver);
-        EmployeePage employeePage = loginPage.LoginAs("standard_user", "secret_sauce");
+        EmployeePage employeePage = loginPage.LoginAs("standard_user", "secret_sauce123");
 
         //Assert.IsTrue(employeePage.FormIsPresent());
     }
