@@ -29,12 +29,20 @@ steps:
     configuration: '$(buildConfiguration)'
 
 - task: VSTest@2
+  displayName: "Server Unit Test"
   inputs:
+    testSelector: 'testAssemblies'
+    testAssemblyVer2: |
+      **\TestCase\LoginTest.cs
+    searchFolder: '$(System.DefaultWorkingDirectory)'
+    runTestsInIsolation: true
+    codeCoverageEnabled: true
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
-- task: AzureRmWebAppDeployment@4
-  inputs:
-    ConnectionType: 'AzureRM'
-    appType: 'webApp'
-    WebAppName: 
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    
+#- task: AzureRmWebAppDeployment@4
+#  inputs:
+#    ConnectionType: 'AzureRM'
+#    appType: 'webApp'
+#    WebAppName: 
+#    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
