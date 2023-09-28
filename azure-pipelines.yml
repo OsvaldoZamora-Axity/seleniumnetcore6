@@ -32,6 +32,7 @@ steps:
   displayName: "Server Unit Test"
   inputs:
     testSelector: 'testPlan'
+    testSuite: '11844'
     #testAssemblyVer2: '**\TestCase\LoginTest.cs'
     searchFolder: '$(System.DefaultWorkingDirectory)'
     runTestsInIsolation: true
