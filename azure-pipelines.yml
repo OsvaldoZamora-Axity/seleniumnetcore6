@@ -32,8 +32,8 @@ steps:
   displayName: "Server Unit Test"
   inputs:
     testSelector: 'testPlan'
-    testSuite: 'SuccesfulLoginTest'
     testPlan: 11835
+    testSuite: 'SuccesfulLoginTest'
     testConfiguration: ''
     #testAssemblyVer2: '**\TestCase\LoginTest.cs'
     searchFolder: '$(System.DefaultWorkingDirectory)'
