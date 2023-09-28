@@ -31,11 +31,12 @@ steps:
 - task: VSTest@2
   displayName: "Server Unit Test"
   inputs:
-    testSelector: 'testAssemblies'
-    testAssemblyVer2: |
-      **\TestCase\LoginTest.cs
+    testSelector: 'testPlan'
+    testPlan: 11835
+    testSuite: 'SuccesfulLoginTest'
+    testConfiguration: ''
+    #testAssemblyVer2: '**\TestCase\LoginTest.cs'
     searchFolder: '$(System.DefaultWorkingDirectory)'
-    runTestsInIsolation: true
     codeCoverageEnabled: true
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
