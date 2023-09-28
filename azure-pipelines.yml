@@ -32,9 +32,7 @@ steps:
   displayName: "Server Unit Test"
   inputs:
     testSelector: 'testAssemblies'
-    testAssemblyVer2: |
-      **\TestCase\LoginTest.cs
-      Selenium.SeleniumTestCase.LoginTest.SuccesfullLoginTest
+    testAssemblyVer2: 'Selenium.TestCase.LoginTest'
     searchFolder: '$(System.DefaultWorkingDirectory)'
     runTestsInIsolation: true
     codeCoverageEnabled: true
