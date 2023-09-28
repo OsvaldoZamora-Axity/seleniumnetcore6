@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qUL1anGDVSsuvNb5weXxj90/kQRtZEGo6fmgfGf9xFI1LyapYWKuXWg5TABM3lHoWqu1AXLpgtvmZT2lvUV6Xw==",
+  "dgSpecHash": "VwYa7VbDD9kNAu1FNy2AUdJhdXepVViIY/p+vE7++2DLxBlR1FRyKNRGnx8h0iFpYAm716H+t8v8IbwpJgAnEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\osvaldo.zamora\\Desktop\\Selenium.Net.Core.6\\Selenium.Net.Core.6\\Selenium\\Selenium.csproj",
+  "projectFilePath": "C:\\Users\\osvaldo.zamora\\Documents\\GitHub\\seleniumnetcore6\\Selenium\\Selenium.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\osvaldo.zamora\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\osvaldo.zamora\\.nuget\\packages\\microsoft.codecoverage\\17.7.2\\microsoft.codecoverage.17.7.2.nupkg.sha512",

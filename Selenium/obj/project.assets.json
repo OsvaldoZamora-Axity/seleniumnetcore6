@@ -1136,11 +1136,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\osvaldo.zamora\\Desktop\\Selenium.Net.Core.6\\Selenium.Net.Core.6\\Selenium\\Selenium.csproj",
+      "projectUniqueName": "C:\\Users\\osvaldo.zamora\\Documents\\GitHub\\seleniumnetcore6\\Selenium\\Selenium.csproj",
       "projectName": "Selenium",
-      "projectPath": "C:\\Users\\osvaldo.zamora\\Desktop\\Selenium.Net.Core.6\\Selenium.Net.Core.6\\Selenium\\Selenium.csproj",
+      "projectPath": "C:\\Users\\osvaldo.zamora\\Documents\\GitHub\\seleniumnetcore6\\Selenium\\Selenium.csproj",
       "packagesPath": "C:\\Users\\osvaldo.zamora\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\osvaldo.zamora\\Desktop\\Selenium.Net.Core.6\\Selenium.Net.Core.6\\Selenium\\obj\\",
+      "outputPath": "C:\\Users\\osvaldo.zamora\\Documents\\GitHub\\seleniumnetcore6\\Selenium\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\osvaldo.zamora\\AppData\\Roaming\\NuGet\\NuGet.Config",
