@@ -37,7 +37,6 @@ steps:
     testConfiguration: ''
     #testAssemblyVer2: '**\TestCase\LoginTest.cs'
     searchFolder: '$(System.DefaultWorkingDirectory)'
-    runTestsInIsolation: true
     codeCoverageEnabled: true
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
