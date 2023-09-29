@@ -35,15 +35,7 @@ steps:
     testPlan: 11835
     testSuite: 11844
     testConfiguration: 16
-    #testAssemblyVer2: '**\TestCase\LoginTest.cs'
     searchFolder: '$(System.DefaultWorkingDirectory)'
     codeCoverageEnabled: true
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
-    
-#- task: AzureRmWebAppDeployment@4
-#  inputs:
-#    ConnectionType: 'AzureRM'
-#    appType: 'webApp'
-#    WebAppName: 
-#    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
