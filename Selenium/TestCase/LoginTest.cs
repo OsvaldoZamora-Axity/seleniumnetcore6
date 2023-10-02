@@ -27,7 +27,7 @@ public class LoginTest
         LoginPage loginPage = new LoginPage(Driver);
         EmployeePage employeePage = loginPage.LoginAs("standard_user", "secret_sauce");
 
-        //Assert.IsTrue(employeePage.FormIsPresent());
+        Assert.IsTrue(employeePage.FormIsPresent());
     }
 
     //TearDown: Anotación de NUnit para ejecutar un metodo después de cada test
