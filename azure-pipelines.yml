@@ -6,12 +6,12 @@
 trigger:
 - main
 
-#pool:
-#  vmImage: 'windows-latest'
-
 pool:
-  name: 'TestSIkuliX'
-  displayName: 'Agent Active'
+  vmImage: 'windows-latest'
+
+#pool:
+#  name: 'TestSIkuliX'
+#  displayName: 'Agent Active'
 
 variables:
   solution: '**/*.sln'
